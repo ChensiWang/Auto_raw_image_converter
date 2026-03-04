@@ -150,8 +150,7 @@ def copy_new_files(result_path, path, Device_ID, Step_ID, offset_x, offset_y, la
                                     print(Scan_Mode)
                                 
                                 # 读取图像数据
-                                # 注意：这里需要根据实际情况修正图像数据的读取方式
-                                # 原代码中的图像读取可能不完整，这里提供一个基本的实现
+
                                 img_data_start = 32768  # 图像数据起始位置
                                 img_data = x[img_data_start:img_data_start + scan_width * scan_width]
                                 
